@@ -38,7 +38,7 @@ button:hover {
 
 .container {
   border: 2px solid #000;
-  margin: 100px;
+  margin: 100px 100px 10px 100px;
   border-radius: 10px;
   padding: 60px;
   background: -webkit-linear-gradient(70deg, #fed90f 30%, rgba(0, 0, 0, 0) 30%),
@@ -119,4 +119,19 @@ button:hover {
 
 .cond {
   text-transform: capitalize;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.github-link {
+  color: #000;
+  transition: all 100ms ease-in-out;
+}
+
+.github-link:hover {
+  color: #f2a40d;
 }
