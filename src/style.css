@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 70px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+h2 {
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+button {
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+  opacity: 0.8;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.celcius {
+  font-size: 50px;
+}
+
+.temperature {
+  font-size: 30px;
+}
+
+.container {
+  border: 2px solid #000;
+  margin: 100px;
+  border-radius: 10px;
+  padding: 60px;
+  background: -webkit-linear-gradient(70deg, #fed90f 30%, rgba(0, 0, 0, 0) 30%),
+    -webkit-linear-gradient(30deg, #fff 60%, #f2a40d 60%);
+  background: -o-linear-gradient(70deg, #fed90f 30%, rgba(0, 0, 0, 0) 30%),
+    -o-linear-gradient(30deg, #fff 60%, #f2a40d 60%);
+  background: -moz-linear-gradient(70deg, #fed90f 30%, rgba(0, 0, 0, 0) 30%),
+    -moz-linear-gradient(30deg, #fff 60%, #f2a40d 60%);
+  background: linear-gradient(70deg, #fed90f 30%, rgba(0, 0, 0, 0) 30%),
+    linear-gradient(30deg, #fff 60%, #f2a40d 60%);
+}
+
+.date {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+}
+.searchbar {
+  text-align: center;
+}
+
+.search {
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.fa-input {
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+  transition: all 100ms ease-in-out;
+}
+
+.fa-input:hover {
+  border-color: #fed90f;
+  color: #fed90f;
+  cursor: pointer;
+}
+
+.fa-solid {
+  font-size: 60px;
+  text-align: center;
+  padding: 50px 10px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.weekly-weather {
+  text-align: center;
+}
+
+.days {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.temp {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.feels-like,
+.humidity,
+.wind {
+  text-align: center;
+  margin-top: 45px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.conditions {
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 2px 2px 5px rgb(27, 27, 27, 0.8);
+}
+
+.cond {
+  text-transform: capitalize;
+}
